@@ -1,10 +1,5 @@
 {
-    "launch": {
-        
-        "editor.autoClosingBrackets": false,
-        "editor.suggestOnTriggerCharacters":false,
-       
-    
-
-    },
+    "editor.quickSuggestions": {
+        "other": "off"
+    }
 }

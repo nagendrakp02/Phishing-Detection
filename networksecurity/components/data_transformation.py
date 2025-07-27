@@ -46,7 +46,7 @@ class DataTransformation:
           A Pipeline object
         """
         logging.info(
-            "Entered get_data_transformer_object method of Trnasformation class"
+            "Entered get_data_trnasformer_object method of Trnasformation class"
         )
         try:
            imputer:KNNImputer=KNNImputer(**DATA_TRANSFORMATION_IMPUTER_PARAMS)

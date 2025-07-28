@@ -113,7 +113,7 @@ Visit: `http://127.0.0.1:8000/` to access the Phishing Prediction UI.
 - MongoDB Atlas
 - scikit-learn
 - MLflow + DagsHub
-- Docker (Optional for deployment)
+- Docker for deployment
 
 ## 🧑‍💻 Author
 - **Nagendra K P** | [GitHub](https://github.com/nagendrakp02)

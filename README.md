@@ -59,7 +59,7 @@ The pipeline is structured into components:
 ## 🛠️ End-to-End Workflow Architecture
 
 ### High-Level Pipeline Flow:
-![Pipeline Architecture](./path/to/diagram.jpg)
+![Pipeline Architecture](notebooks/diagram.jpg)
 
 1. **Data Ingestion** → Pull data from **MongoDB**
 2. **Data Validation** → Validate structure against **data_schema/**
@@ -71,27 +71,7 @@ The pipeline is structured into components:
 
 ## 🖥️ How to Run the Project Locally
 
-### Clone & Install Dependencies
-```bash
-git clone https://github.com/nagendrakp02/network_security.git
-cd network_security
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
 
-### MongoDB Setup
-Create a `.env` file:
-```env
-MONGO_DB_URL=mongodb+srv://<username>:<password>@<cluster-url>
-DATABASE_NAME=phishingDB
-COLLECTION_NAME=phishingData
-```
-
-Test MongoDB connection:
-```bash
-python test_mongodb.py
-```
 
 ### Data Ingestion to MongoDB
 ```bash
@@ -134,15 +114,6 @@ Visit: `http://127.0.0.1:8000/` to access the Phishing Prediction UI.
 - scikit-learn
 - MLflow + DagsHub
 - Docker (Optional for deployment)
-
-## 🤝 Contributing
-1. Fork the Repository
-2. Create a Feature Branch (`feature/your-feature`)
-3. Commit Changes & Push
-4. Open a Pull Request (PR)
-
-## 📄 License
-This project is currently for educational and internal use. Licensing will be updated for open-source release.
 
 ## 🧑‍💻 Author
 - **Nagendra K P** | [GitHub](https://github.com/nagendrakp02)
